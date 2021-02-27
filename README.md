@@ -16,6 +16,16 @@ Marlin 2.0 takes this popular RepRap firmware to the next level by adding suppor
 
 Download earlier versions of Marlin on the [Releases page](https://github.com/MarlinFirmware/Marlin/releases).
 
+## About this version 
+
+This is the firmware I created for my Anycubic 4Max after upgrading to TMC2208 stepper drivers. The directions of all axis and extruders are inverted already, so you don't need further modification of your Hardware.
+
+I adjusted the PID for the hotend. The PID for the heatbed is fine with default values.
+
+I also adjusted the acceleration values which suit the printer setup better.
+
+Please refer to the official Marlin project about the installation of the firmware.
+
 ## Building Marlin 2.0
 
 To build Marlin 2.0 you'll need [Arduino IDE 1.8.8 or newer](https://www.arduino.cc/en/main/software) or [PlatformIO](http://docs.platformio.org/en/latest/ide.html#platformio-ide). Detailed build and install instructions are posted at:
